@@ -1,0 +1,23 @@
+[
+    {
+        "nombre": "Javier Milei",
+        "desde": "10/12/2023",
+        "hasta": "Presente",
+        "imagen":"https://chequeado.com/wp-content/uploads/2023/11/Javier-Milei-Perfil-TW.jpeg",
+        "bio":"Javier Gerardo Milei es un economista, político y docente argentino, actual presidente de la Nación Argentina desde el 10 de diciembre de 2023 y líder del espacio político La Libertad Avanza.​​ "
+    },
+    {
+        "nombre": "Alberto Fernández",
+        "desde": "10/12/2019",
+        "hasta": "10/12/2023",
+        "imagen":"https://pbs.twimg.com/profile_images/1510452272420909061/EM_Li6-S_400x400.jpg",
+        "bio":"Alberto Ángel Fernández, es un abogado, profesor y político argentino que ejerció el cargo de presidente de la Nación Argentina desde el 10 de diciembre de 2019 hasta el 10 de diciembre de 2023 y el cargo de jefe de Gabinete de Ministros entre 2003 y 2008.​ Es miembro de la coalición política Unión por la Patria. "
+    },
+    {
+        "nombre": "Mauricio Macri",
+        "desde": "10/12/2015",
+        "hasta": "10/12/2019",
+        "imagen": "https://ahivamos.com.ar/uploads/images/image_400x400_623da83fcf5ff.jpg",
+        "bio": "Mauricio Macri es un político, ingeniero civil, empresario y dirigente deportivo argentino, que ejerció como presidente de la Nación Argentina entre 2015​ y 2019, ​ jefe de Gobierno de la Ciudad de Buenos Aires entre 2007 y 2015, y presidente del Club Atlético Boca Juniors entre 1995 y 2007."
+    }
+]

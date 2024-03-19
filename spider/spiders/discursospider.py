@@ -1,6 +1,7 @@
 import scrapy, re, csv, json
 from datetime import datetime
 from scrapy.exceptions import CloseSpider
+from scrapy.crawler import CrawlerProcess
 
 URL_CASA_ROSADA = "www.casarosada.gob.ar"
 URL_DISCURSOS = "https://www.casarosada.gob.ar/informacion/discursos"
@@ -53,7 +54,7 @@ class DiscursoSpider(scrapy.Spider):
 
         self.nueva_actualizacion = self.ultima_actualizacion
 
-        with open('presidentes.json', 'r') as file:
+        with open('app/src/presidentes.json', 'r') as file:
             self.presidentes = json.load(file)
 
         with open('meses.json', 'r') as file:
@@ -77,6 +78,10 @@ class DiscursoSpider(scrapy.Spider):
         texto_final = ' '.join(texto)
         
         fecha = parsear_fecha(response.css('time.pull-right::text').get(), self.meses)
+        
+        if fecha is None:
+            return
+
         fecha_datetime = datetime.strptime(fecha, '%d/%m/%Y')
         titulo = response.css('title::text').get()
         orador = obtener_orador(titulo, fecha, self.presidentes)
