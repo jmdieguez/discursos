@@ -13,9 +13,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Install dependencies
+    - name: Install scrapy
       run: |
-        npm install
         pip install scrapy
 
     - name: Extract information
@@ -24,9 +23,10 @@ jobs:
     - name: Generate images
       run: python3 nube_de_palabras.py
 
-    - name: Build website
+    - name: Install npm & build website
       run: |
         cd app
+        npm install
         npm run build
 
     - name: Deploy to GitHub Pages
