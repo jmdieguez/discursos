@@ -10,10 +10,10 @@ LOG_LEVEL = logging.INFO
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "discursos"
+BOT_NAME = "spider"
 
-SPIDER_MODULES = ["discursos.spiders"]
-NEWSPIDER_MODULE = "discursos.spiders"
+SPIDER_MODULES = ["spider.spiders"]
+NEWSPIDER_MODULE = "spider.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
