@@ -10,7 +10,7 @@ function Avatar(props) {
             <img src={props.presidente.imagen} alt={"Imagen de " + props.presidente.nombre} />
         </div>
 
-        <h5 className='text'>{props.presidente.bio}</h5>
+        <p className='text'>{props.presidente.bio}</p>
     </div>
   );
 }
