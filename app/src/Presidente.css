@@ -1,3 +1,20 @@
 .content {
     padding-bottom: 25px;
 }
+
+.container {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%; 
+}
+
+.left, .right {
+    padding: 20px;
+    box-sizing: border-box;
+}

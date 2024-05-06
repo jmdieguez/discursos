@@ -23,8 +23,13 @@ jobs:
     - name: Extract information
       run: scrapy crawl discursospider
 
+    - name: NLP
+      run: analisis_sentimientos.py 
+
     - name: Generate images
-      run: python3 nube_de_palabras.py
+      run: |
+        python3 nube_de_palabras.py
+        python3 graficos_sentimientos.py
 
     - name: Install npm & build website
       run: |
