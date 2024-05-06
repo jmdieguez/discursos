@@ -24,7 +24,7 @@ jobs:
       run: scrapy crawl discursospider
 
     - name: NLP
-      run: analisis_sentimientos.py 
+      run: python3 analisis_sentimientos.py 
 
     - name: Generate images
       run: |
