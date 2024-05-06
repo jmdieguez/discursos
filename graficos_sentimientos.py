@@ -13,7 +13,7 @@ oradores = df['orador'].unique()
 # Para cada orador, generar un gráfico separado
 for orador in oradores:
     nombre_graf = 'polaridad'
-    for cols in [['POS', 'NEG', 'NEU'], ['joy', 'others', 'surprise', 'disgust', 'sadness', 'fear', 'anger']]:
+    for cols in [['POS', 'NEG', 'NEU'], ['joy', 'surprise', 'disgust', 'sadness', 'fear', 'anger']]:
         df_orador = df[df['orador'] == orador]
         df_orador.set_index('fecha', inplace=True)
         fig, ax = plt.subplots(figsize=(10, 6))
@@ -22,4 +22,3 @@ for orador in oradores:
         ax.grid(True)
         plt.savefig(f'app/public/images/{orador}_{nombre_graf}.png')
         nombre_graf = 'emociones'
-        plt.show()

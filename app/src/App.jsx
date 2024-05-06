@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='body'>
       {presidentesData.map((presidente, index) => (
-        <Presidente presidente={presidente} index={index}/>
+        <Presidente presidente={presidente} key={presidente.nombre} index={index}/>
       ))}
     </div>
   );

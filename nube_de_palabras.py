@@ -9,7 +9,7 @@ from textblob import TextBlob
 nltk.download('punkt')
 nltk.download('stopwords')
 stop_words = set(stopwords.words('spanish'))
-data = pd.read_csv('discursos.csv')
+data = pd.read_csv('discursos_sample.csv')
 oradores_unicos = data['orador'].unique()
 plt.figure(figsize=(10, 5))
 
