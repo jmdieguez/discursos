@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/discursos/static/css/main.40537131.css",
-    "main.js": "/discursos/static/js/main.03188c14.js",
+    "main.css": "/discursos/static/css/main.19e1e23d.css",
+    "main.js": "/discursos/static/js/main.9321b88d.js",
     "static/js/453.a6a97343.chunk.js": "/discursos/static/js/453.a6a97343.chunk.js",
+    "static/media/Mauricio Macri_polaridad.png": "/discursos/static/media/Mauricio Macri_polaridad.bfc9fbdbef959ec32a27.png",
+    "static/media/Javier Milei_palabras.png": "/discursos/static/media/Javier Milei_palabras.694e74d9023fea36858a.png",
+    "static/media/Mauricio Macri_emociones.png": "/discursos/static/media/Mauricio Macri_emociones.e3e63490b4849269a779.png",
+    "static/media/Alberto Fernández_palabras.png": "/discursos/static/media/Alberto Fernández_palabras.2f71b9e4e210df122d5c.png",
+    "static/media/Alberto Fernández_polaridad.png": "/discursos/static/media/Alberto Fernández_polaridad.df51eaee39b57b0c3108.png",
+    "static/media/Mauricio Macri_palabras.png": "/discursos/static/media/Mauricio Macri_palabras.69e0066804c8dca7d29b.png",
+    "static/media/Alberto Fernández_emociones.png": "/discursos/static/media/Alberto Fernández_emociones.55a62de3833fd4758307.png",
+    "static/media/Javier Milei_palabras_sentimentales.png": "/discursos/static/media/Javier Milei_palabras_sentimentales.e5f0183a1f3a45a86aec.png",
+    "static/media/Mauricio Macri_palabras_sentimentales.png": "/discursos/static/media/Mauricio Macri_palabras_sentimentales.97e024add246fd3d3a7c.png",
+    "static/media/Alberto Fernández_palabras_sentimentales.png": "/discursos/static/media/Alberto Fernández_palabras_sentimentales.8e8de6701215e99c9f54.png",
+    "static/media/Javier Milei_emociones.png": "/discursos/static/media/Javier Milei_emociones.a337756df714593e5ec0.png",
+    "static/media/Javier Milei_polaridad.png": "/discursos/static/media/Javier Milei_polaridad.bab3cf11960549f0372d.png",
     "index.html": "/discursos/index.html",
-    "main.40537131.css.map": "/discursos/static/css/main.40537131.css.map",
-    "main.03188c14.js.map": "/discursos/static/js/main.03188c14.js.map",
+    "main.19e1e23d.css.map": "/discursos/static/css/main.19e1e23d.css.map",
+    "main.9321b88d.js.map": "/discursos/static/js/main.9321b88d.js.map",
     "453.a6a97343.chunk.js.map": "/discursos/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40537131.css",
-    "static/js/main.03188c14.js"
+    "static/css/main.19e1e23d.css",
+    "static/js/main.9321b88d.js"
   ]
 }
