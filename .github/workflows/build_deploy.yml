@@ -18,7 +18,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install --upgrade scrapy twisted pyopenssl pandas wordcloud matplotlib nltk textblob
+        pip install --upgrade scrapy twisted pyopenssl pandas wordcloud matplotlib nltk textblob pysentimiento
 
     - name: Extract information
       run: scrapy crawl discursospider
