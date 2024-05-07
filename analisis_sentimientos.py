@@ -35,7 +35,7 @@ def average_sentiment(text):
 
     return {metric: total_sentiment_emotion[metric] / count for metric in total_sentiment_emotion}
 
-df = pd.read_csv('discursos_sample.csv') # .sample(n=100)
+df = pd.read_csv('discursos.csv') # .sample(n=100)
 res = df['discurso'].apply(average_sentiment).apply(pd.Series)
 df = pd.concat([df, res], axis=1)
 df.to_csv('discursos_sentimientos.csv', sep=',', index=False)
