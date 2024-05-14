@@ -3,8 +3,7 @@ import './About.css';
 function About() {
   return (
     <div className='about-content'>
-        <img src="https://lens-storage.storage.googleapis.com/png/04ea97857cb54c5f8b5856b4345605e1" 
-            alt="Description of the image" />
+        <img src="https://lens-storage.storage.googleapis.com/png/04ea97857cb54c5f8b5856b4345605e1" />
 
         <h1>
             Argentina: Análisis Lingüistico de presidentes a través del tiempo

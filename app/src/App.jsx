@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className='header'>
-        <a href="https://github.com/jmdieguez/discursos" target="_blank"><i class="bi bi-github"></i> Ir al repositorio de GitHub</a>
+        <a href="https://github.com/jmdieguez/discursos" alt="Emociones"><i class="bi bi-github"></i> Ir al repositorio de GitHub</a>
       </div>
 
       <div className='body'>
