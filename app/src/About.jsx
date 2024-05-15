@@ -3,8 +3,8 @@ import './About.css';
 function About() {
   return (
     <div className='about-content'>
-        <img src="https://lens-storage.storage.googleapis.com/png/04ea97857cb54c5f8b5856b4345605e1" />
-
+        <img src="https://lens-storage.storage.googleapis.com/png/04ea97857cb54c5f8b5856b4345605e1"
+             alt="distintas emociones que se analizan en el proyecto" />
         <h1>
             Argentina: Análisis Lingüistico de presidentes a través del tiempo
         </h1>
